@@ -37,7 +37,7 @@ function Chatbot() {
 
       // Send user's message to the bot and get response
       try {
-        const genAI = new GoogleGenerativeAI("AIzaSyDIceResPAczirGngM8x1rqBOw-eJ8qdUo");
+        const genAI = new GoogleGenerativeAI("YOUR_GEMINI_API_KEY");
         const model = genAI.getGenerativeModel({ model: "gemini-pro" ,safetySettings , generationConfig});
         const chat = model.startChat();
         const result = await chat.sendMessage(input);
