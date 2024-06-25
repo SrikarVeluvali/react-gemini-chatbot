@@ -9,16 +9,6 @@ This is a simple chatbot app implemented in React using Google's Gemini API. The
 - Minimalistic design
 - Responsive layout
 
-## Demo
-
-You can access the live demo of the chatbot app [here](https://srikarveluvali.github.io/chatbot-react/).
-
-## How to Use
-
-1. Visit the [live demo](https://srikarveluvali.github.io/chatbot-react/) link.
-2. Type your message in the input field at the bottom of the chat window.
-3. Press Enter or click the Send button to send your message to the chatbot.
-4. The chatbot will respond with an appropriate message based on the input using Google's Gemini API.
 
 ## Technologies Used
 
